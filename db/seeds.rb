@@ -34,13 +34,13 @@ Nurse2 = Nurse.create(name:"Grace Kimani", email:"kimanigracea@gmail.com", job_i
 Nurse3 = Nurse.create(name:"Caleb Nyarindo", email:"calebnyarindo@gmail.com", job_id:13)
 Nurse4 = Nurse.create(name:"Florence Wambugu", email:"wambuguflorence@gmail.com", job_id:14)
 
-Patient1 = Patient.create(name:"Ryan Flake", telephone_number:254756789567, date_of_birth:1973-8-1, gender:"male", weight:56, bloodtype:"A", symptoms:"Headache", diagnosis:"Body fatigue", national_id:345245)
-Patient2 = Patient.create(name:"Mercy Tanui", telephone_number:254767897345, date_of_birth:1983-2-3, gender:"female", weight:46, bloodtype:"B", symptoms:"Muscle pains", diagnosis:"Body fatigue",national_id:245245)
-Patient3 = Patient.create(name:"Paul Mabeko", telephone_number:254734789509, date_of_birth:1993-1-5, gender:"male", weight:59, bloodtype:"O", symptoms:"Insomnia", diagnosis:"Needs more rest",national_id:145265)
-Patient4 = Patient.create(name:"Brenda Wairimu", telephone_number:254736879475, date_of_birth:1998-4-5, gender:"female", weight:89, bloodtype:"B", symptoms:"Diarrhoea", diagnosis:"Stomach infection",national_id:445245)
-Patient5 = Patient.create(name:"Haryy Fresh", telephone_number:254758456324, date_of_birth:2000-7-6, gender:"male", weight:32, bloodtype:"A", symptoms:"Vomiting", diagnosis:"Bilhazea",national_id:365145)
-Patient6 = Patient.create(name:"ALbert Biko", telephone_number:254709657349, date_of_birth:2004-6-2, gender:"male", weight:58, bloodtype:"B", symptoms:"Skin rushes", diagnosis:"Chicken pox",national_id:375545)
-Patient7 = Patient.create(name:"Mwendwa Alice", telephone_number:254748034078, date_of_birth:1974-9-7, gender:"female", weight:94, bloodtype:"A", symptoms:"Sweating", diagnosis:"Covid",national_id:278245)
+Patient1 = Patient.create(name:"Ryan Flake", telephone_number:9567, date_of_birth:1973-8-1, gender:"male", weight:56, bloodtype:"A", symptoms:"Headache", diagnosis:"Body fatigue", national_id:345245)
+Patient2 = Patient.create(name:"Mercy Tanui", telephone_number:7345, date_of_birth:1983-2-3, gender:"female", weight:46, bloodtype:"B", symptoms:"Muscle pains", diagnosis:"Body fatigue",national_id:245245)
+Patient3 = Patient.create(name:"Paul Mabeko", telephone_number:9509, date_of_birth:1993-1-5, gender:"male", weight:59, bloodtype:"O", symptoms:"Insomnia", diagnosis:"Needs more rest",national_id:145265)
+Patient4 = Patient.create(name:"Brenda Wairimu", telephone_number:9475, date_of_birth:1998-4-5, gender:"female", weight:89, bloodtype:"B", symptoms:"Diarrhoea", diagnosis:"Stomach infection",national_id:445245)
+Patient5 = Patient.create(name:"Haryy Fresh", telephone_number:6324, date_of_birth:2000-7-6, gender:"male", weight:32, bloodtype:"A", symptoms:"Vomiting", diagnosis:"Bilhazea",national_id:365145)
+Patient6 = Patient.create(name:"ALbert Biko", telephone_number:7349, date_of_birth:2004-6-2, gender:"male", weight:58, bloodtype:"B", symptoms:"Skin rushes", diagnosis:"Chicken pox",national_id:375545)
+Patient7 = Patient.create(name:"Mwendwa Alice", telephone_number:4078, date_of_birth:1974-9-7, gender:"female", weight:94, bloodtype:"A", symptoms:"Sweating", diagnosis:"Covid",national_id:278245)
 
 
 Appointment1 = Appointment.create(date: 2022-9-10, time:"7:00am-8:00am", patient_id:Patient1.id, doctor_id:Doctor2.id)
