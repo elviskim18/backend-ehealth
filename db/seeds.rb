@@ -43,8 +43,8 @@ Patient6 = Patient.create(name:"ALbert Biko", telephone_number:7349, date_of_bir
 Patient7 = Patient.create(name:"Mwendwa Alice", telephone_number:4078, date_of_birth:'1974-9-7', gender:"female", weight:94, bloodtype:"A", symptoms:"Sweating", diagnosis:"Covid",national_id:278245)
 
 
-Appointment2 = Appointment.create(appointment_date:" 2022-9-10", time:"9:00am-10:00am", patient_id:Patient2.id, doctor_id:Doctor2.id)
-Appointment1 = Appointment.create(appointment_date:" 2022-9-10", time:"7:00am-8:00am", patient_id:Patient1.id, doctor_id:Doctor2.id)
+Appointment2 = Appointment.create(appointment_date: "2022-9-10", time:"9:00am-10:00am", patient_id:Patient2.id, doctor_id:Doctor2.id)
+Appointment1 = Appointment.create(appointment_date: "2022-9-10", time:"7:00am-8:00am", patient_id:Patient1.id, doctor_id:Doctor2.id)
 Appointment3 = Appointment.create(appointment_date: "2022-9-10", time:"8:00am-9:00am", patient_id:Patient4.id, doctor_id:Doctor1.id)
 Appointment4 = Appointment.create(appointment_date: "2022-9-10", time:"7:00am-8:00am", patient_id:Patient3.id, doctor_id:Doctor1.id)
 Appointment5 = Appointment.create(appointment_date: "2022-9-10", time:"7:30am-8:00am", patient_id:Patient5.id, doctor_id:Doctor3.id)
