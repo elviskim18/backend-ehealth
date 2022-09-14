@@ -3,7 +3,7 @@ ruby "2.7.4"
 
 # A DSL for quickly creating web applications
 # https://github.com/sinatra/sinatra
-gem "sinatra", "~> 2.1"
+# gem "sinatra", "~> 2.1"
 
 # A fast and simple web server
 # https://github.com/macournoyer/thin
@@ -32,7 +32,7 @@ gem "rake", "~> 13.0"
 # Provides functionality to interact with a SQLite3 database
 # gem "sqlite3", "~> 1.4"
 
-gem 'sinatra-contrib', '~> 2.2', '>= 2.2.2',require: false
+# gem 'sinatra-contrib', '~> 2.2', '>= 2.2.2',require: false
 
 # Require all files in a folder
 gem "require_all", "~> 3.0"
